@@ -334,14 +334,6 @@ export function attachEventListners(main) {
     });
   });
 
-  function enableconversation() {
-  let head = document.getElementsByTagName('head')[0];
-  var meta = document.createElement('meta');
-  meta.name = "urn:adobe:aue:config:extensions";
-  meta.content = "https://experience.adobe.com/?devMode=true#/custom-apps/?localDevUrl=https://283250-290burgundyantelope-stage.adobeio-static.net/index.html";
-  head.appendChild(meta);
-}
-
   const ueEditModeHandler = () => {
     window.currentMode = 'edit';
     const forms = document.querySelectorAll('form');
@@ -352,6 +344,14 @@ export function attachEventListners(main) {
     ueEditModeHandler();
   }
   document.body.addEventListener('aue:ui-edit', ueEditModeHandler);
+}
+
+  function enableconversation() {
+  let head = document.getElementsByTagName('head')[0];
+  var meta = document.createElement('meta');
+  meta.name = "urn:adobe:aue:config:extensions";
+  meta.content = "https://experience.adobe.com/?devMode=true#/custom-apps/?localDevUrl=https://283250-290burgundyantelope-stage.adobeio-static.net/index.html";
+  head.appendChild(meta);
 }
 
 const observer = new MutationObserver(instrumentForms);
