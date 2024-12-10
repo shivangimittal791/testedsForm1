@@ -350,7 +350,7 @@ export function attachEventListners(main) {
   let head = document.getElementsByTagName('head')[0];
   var meta = document.createElement('meta');
   meta.name = "urn:adobe:aue:config:extensions";
-  meta.content = "https://experience.adobe.com/?devMode=true#/custom-apps/?localDevUrl=https://283250-290burgundyantelope-stage.adobeio-static.net/index.html";
+  meta.content = "https://283250-290burgundyantelope-stage.adobeio-static.net/index.html";
   console.log('Conversation extension');
   head.appendChild(meta);
 }
