@@ -30,6 +30,12 @@
                     "fields": [
                         {
                             "...": "./_common.json#/basicfields"
+                        },
+                        {
+                            "component": "boolean",
+                            "name": "flow:screen",
+                            "label": "Include in Conversations as screen",
+                            "valueType": "boolean"
                         }
                     ]
                 },
