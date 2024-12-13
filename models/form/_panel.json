@@ -33,7 +33,7 @@
                         },
                         {
                             "component": "boolean",
-                            "name": "flow:screen",
+                            "name": "fd:cf_screen",
                             "label": "Include in Conversations as screen",
                             "valueType": "boolean"
                         }

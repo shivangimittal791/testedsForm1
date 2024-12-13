@@ -42,7 +42,7 @@
                         },
                         {
                             "component": "boolean",
-                            "name": "flow:include",
+                            "name": "fd:cf_include",
                             "label": "Include in Conversations",
                             "valueType": "boolean"
                         }

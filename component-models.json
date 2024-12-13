@@ -1929,7 +1929,7 @@
           },
           {
             "component": "boolean",
-            "name": "flow:screen",
+            "name": "fd:cf_screen",
             "label": "Include in Conversations as screen",
             "valueType": "boolean"
           }
@@ -2358,7 +2358,7 @@
           },
           {
             "component": "boolean",
-            "name": "flow:include",
+            "name": "fd:cf_include",
             "label": "Include in Conversations",
             "valueType": "boolean"
           }
