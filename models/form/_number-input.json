@@ -33,6 +33,12 @@
                         },
                         {
                             "...": "./_common.json#/advancedfields"
+                        },
+                        {
+                            "component": "boolean",
+                            "name": "fdcf_include",
+                            "label": "Include in Conversations",
+                            "valueType": "boolean"
                         }
                     ]
                 },

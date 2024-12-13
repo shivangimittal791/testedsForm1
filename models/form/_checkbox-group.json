@@ -83,6 +83,12 @@
                                     "value": "vertical"
                                 }
                             ]
+                        },
+                        {
+                            "component": "boolean",
+                            "name": "fdcf_include",
+                            "label": "Include in Conversations",
+                            "valueType": "boolean"
                         }
                     ]
                 },

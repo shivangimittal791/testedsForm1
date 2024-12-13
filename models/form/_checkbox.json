@@ -69,6 +69,12 @@
                             "name": "default",
                             "label": "Default Value",
                             "valueType": "string"
+                        },
+                        {
+                            "component": "boolean",
+                            "name": "fdcf_include",
+                            "label": "Include in Conversations",
+                            "valueType": "boolean"
                         }
                     ]
                 },

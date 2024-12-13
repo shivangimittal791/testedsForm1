@@ -33,7 +33,7 @@
                         },
                         {
                             "component": "boolean",
-                            "name": "fd:cf_screen",
+                            "name": "fdcf_screen",
                             "label": "Include in Conversations as screen",
                             "valueType": "boolean"
                         }

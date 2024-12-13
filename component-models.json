@@ -537,6 +537,12 @@
             "name": "default",
             "label": "Default Value",
             "valueType": "string"
+          },
+          {
+            "component": "boolean",
+            "name": "fdcf_include",
+            "label": "Include in Conversations",
+            "valueType": "boolean"
           }
         ]
       },
@@ -711,6 +717,12 @@
                 "value": "vertical"
               }
             ]
+          },
+          {
+            "component": "boolean",
+            "name": "fdcf_include",
+            "label": "Include in Conversations",
+            "valueType": "boolean"
           }
         ]
       },
@@ -840,6 +852,12 @@
             "name": "default",
             "label": "Default Value",
             "valueType": "string"
+          },
+          {
+            "component": "boolean",
+            "name": "fdcf_include",
+            "label": "Include in Conversations",
+            "valueType": "boolean"
           }
         ]
       },
@@ -1054,6 +1072,12 @@
             "name": "default",
             "label": "Default Value",
             "valueType": "string"
+          },
+          {
+            "component": "boolean",
+            "name": "fdcf_include",
+            "label": "Include in Conversations",
+            "valueType": "boolean"
           }
         ]
       },
@@ -1183,6 +1207,12 @@
             "name": "default",
             "label": "Default Value",
             "valueType": "string"
+          },
+          {
+            "component": "boolean",
+            "name": "fdcf_include",
+            "label": "Include in Conversations",
+            "valueType": "boolean"
           }
         ]
       },
@@ -1745,6 +1775,12 @@
             "name": "default",
             "label": "Default Value",
             "valueType": "string"
+          },
+          {
+            "component": "boolean",
+            "name": "fdcf_include",
+            "label": "Include in Conversations",
+            "valueType": "boolean"
           }
         ]
       },
@@ -1929,7 +1965,7 @@
           },
           {
             "component": "boolean",
-            "name": "fd:cf_screen",
+            "name": "fdcf_screen",
             "label": "Include in Conversations as screen",
             "valueType": "boolean"
           }
@@ -2106,6 +2142,12 @@
                 "value": "vertical"
               }
             ]
+          },
+          {
+            "component": "boolean",
+            "name": "fdcf_include",
+            "label": "Include in Conversations",
+            "valueType": "boolean"
           }
         ]
       },
@@ -2270,6 +2312,12 @@
         "label": "Show Component",
         "valueType": "boolean",
         "value": true
+      },
+      {
+        "component": "boolean",
+        "name": "fdcf_include",
+        "label": "Include in Conversations",
+        "valueType": "boolean"
       }
     ]
   },
@@ -2358,7 +2406,7 @@
           },
           {
             "component": "boolean",
-            "name": "fd:cf_include",
+            "name": "fdcf_include",
             "label": "Include in Conversations",
             "valueType": "boolean"
           }

@@ -35,7 +35,13 @@
                     "label": "Show Component",
                     "valueType": "boolean",
                     "value": true
-                }
+                },
+                {
+                  "component": "boolean",
+                  "name": "fdcf_include",
+                  "label": "Include in Conversations",
+                  "valueType": "boolean"
+              }
             ]
         }
     ]
