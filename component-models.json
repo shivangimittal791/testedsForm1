@@ -1926,6 +1926,12 @@
             "name": "readOnly",
             "label": "Read-only",
             "valueType": "boolean"
+          },
+          {
+            "component": "boolean",
+            "name": "flow:screen",
+            "label": "Include in Conversations as screen",
+            "valueType": "boolean"
           }
         ]
       },
@@ -2348,6 +2354,12 @@
             "component": "boolean",
             "name": "multiLine",
             "label": "Allow multiple lines",
+            "valueType": "boolean"
+          },
+          {
+            "component": "boolean",
+            "name": "flow:include",
+            "label": "Include in Conversations",
             "valueType": "boolean"
           }
         ]

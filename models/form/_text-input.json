@@ -42,12 +42,6 @@
                         },
                         {
                             "component": "boolean",
-                            "name": "flowInclude",
-                            "label": "Include in conversations Test",
-                            "valueType": "boolean"
-                        },
-                        {
-                            "component": "boolean",
                             "name": "flow:include",
                             "label": "Include in Conversations",
                             "valueType": "boolean"
