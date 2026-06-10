@@ -346,6 +346,25 @@ export function attachEventListners(main) {
   document.body.addEventListener('aue:ui-edit', ueEditModeHandler);
 }
 
+function enableRuleEditorExtension() {
+  const head = document.getElementsByTagName('head')[0];
+  const meta = document.createElement('meta');
+  meta.name = 'urn:adobe:aue:config:extensions';
+  const params = new URLSearchParams(window.location.hash.substring(1)); // Remove the leading '#' character
+  // const params = new URLSearchParams(window.location.search); // not working anymore for some reason
+  console.log('Rule editor extension Params: ', params);
+  let version = params.get('livecycle-ruleeditor-ui-service_version');
+  const domain = params.get('livecycle-ruleeditor-ui-service_domain') || 'https://experience.adobe.com';
+  if (version) {
+    meta.content = `${domain}/solutions/livecycle-ruleeditor-ui-service/static-assets/resources/universal_editor.html?livecycle-ruleeditor-ui-service_version=${version}`;
+  } else {
+    meta.content = `${domain}/solutions/livecycle-ruleeditor-ui-service/static-assets/resources/universal_editor.html`;
+  }
+  console.log('Adding meta tag for rule editor extension: ', meta.content);
+  head.appendChild(meta);
+}
+enableRuleEditorExtension();
+
   function enableconversation() {
   let head = document.getElementsByTagName('head')[0];
   var meta = document.createElement('meta');
